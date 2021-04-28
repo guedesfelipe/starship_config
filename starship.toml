@@ -89,7 +89,6 @@ stashed = "[📦 ${count}](fg:#e040fb)"
 modified = "📝${count}"
 staged = "[○${count}](green)"
 renamed = "»${count}"
-renamed_count.enabled = true
 deleted = "[✗${count}](fg:#ff1744)"
 style = "fg:#aa00c7"
 
