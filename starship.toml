@@ -7,6 +7,7 @@ $username\
 $hostname\
 $kubernetes\
 $directory\
+$gcloud\
 $git_branch\
 $git_commit\
 $git_state\
@@ -113,3 +114,8 @@ style = 'fg:#00e676'
 command = "echo 🌱"  # shows output of command
 files = ["foo"]       # can specify filters
 when = """ test "$HOME" == "$PWD" """
+
+[gcloud]
+symbol = '️🇬️ '
+# format = 'on [$symbol$account(@$domain)(\($project\))]($style) '
+format = '[$symbol ($project)]($style) '
